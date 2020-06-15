@@ -622,10 +622,6 @@ button {
   display: none;
 }
 
-.slick-arrow {
-  z-index: 7;
-}
-
 .header.sticky {
   position: fixed;
   width: 100%;
@@ -997,7 +993,7 @@ button {
   margin-right: 42px;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
-  width: 2rem;
+  width: 3rem;
 }
 
 .descr__item-text {
@@ -2195,8 +2191,8 @@ button {
   }
   .coach {
     color: #ffffff;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("/img/coach/pic.jpg") center center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/coach/pic.jpg") center center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../img/coach/pic.jpg") center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/coach/pic.jpg") center center/cover;
   }
   .coach__img {
     display: none;
