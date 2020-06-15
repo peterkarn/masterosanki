@@ -622,6 +622,10 @@ button {
   display: none;
 }
 
+.slick-arrow {
+  z-index: 7;
+}
+
 .header.sticky {
   position: fixed;
   width: 100%;
@@ -669,7 +673,7 @@ button {
 
 .header__logo {
   margin-right: 77px;
-  z-index: 10;
+  z-index: 10000;
 }
 
 .nav {
@@ -2289,7 +2293,7 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 85vh;
+    height: 83vh;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -2360,7 +2364,7 @@ button {
   .reasons .slick-arrow {
     position: absolute;
     top: 20%;
-    z-index: 100;
+    z-index: 7;
     font-size: 0;
     width: 33px;
     height: 33px;
